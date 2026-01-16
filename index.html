@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nós</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <p class="kicker">Desde 05/04/2025</p>
+      <h1>Agora eu não esqueço mais:</h1>
+    </header>
+
+    <section class="counter" aria-live="polite">
+      <div class="ymd" id="ymd">--</div>
+      <div class="clock" id="clock">--:--:--</div>
+      <div class="totalDays" id="totalDays">--</div>
+    </section>
+
+    <section class="gallery">
+
+      <div class="carousel" aria-label="Carrossel de fotos">
+        <button class="nav prev" type="button" aria-label="Foto anterior">‹</button>
+
+        <div class="viewport" id="viewport">
+          <div class="track" id="track"></div>
+        </div>
+
+        <button class="nav next" type="button" aria-label="Próxima foto">›</button>
+      </div>
+
+      <div class="dots" id="dots" aria-label="Indicadores do carrossel"></div>
+    </section>
+
+    <footer class="footer">
+      <p>Feito com carinho.</p>
+      <p>Te amo minha princesa <img src="img/coracao.png" style="width:16px; height:16px; vertical-align:middle;"></p>
+    </footer>
+  </main>
+
+  <!-- Lista de fotos (você edita esse arquivo) -->
+  <script src="photos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
