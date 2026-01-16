@@ -11,6 +11,19 @@
 *{ box-sizing: border-box; }
 html, body{ height: 100%; }
 
+html, body, * {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
 body{
   margin: 0;
   color: var(--text);
