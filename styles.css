@@ -199,3 +199,19 @@ body{
   color: var(--muted);
   font-size: 12px;
 }
+
+button, .nav, .dot {
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+button:focus, .nav:focus, .dot:focus {
+  outline: none;
+}
+
+
+button:focus-visible, .nav:focus-visible, .dot:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.35);
+  outline-offset: 3px;
+}
+
